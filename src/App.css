@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fafafa;
+}
+
+.conteudoEsquerda,
+.conteudoCentro,
+.conteudoDireita {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 30vw;
+}
+
+.conteudoEsquerda {
+  background: red;
+}
+
+.conteudoCentro {
+  background: blue;
+}
+
+.conteudoDireita {
+  background: yellow;
+}
+
+#root {
+  display: flex;
+}
