@@ -1,0 +1,24 @@
+.conteudoLateralEsquerda {
+    line-height: 60px;
+    
+}
+
+.conteudoLateralEsquerda ul, ol {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    font-size: 22px;
+    
+}
+
+.conteudoLateralEsquerda img {
+    margin: 20px;
+}
+
+ul li {
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    
+}
+

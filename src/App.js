@@ -1,18 +1,30 @@
 import logo from './logo.svg';
 import './App.css';
-import ConteudoEsquerda from './components/conteudoEsquerda';
+import Esquerda from './ConteudoLateralEsquerda';
+// JSX 
 
 function App() {
   return (
     <>
-      <ConteudoEsquerda />
+      <Esquerda />
 
-      <div className="conteudoCentro">
-
+      <div className='conteudoCentral'>
+        {/* 
+          Stories
+          Feed de posts
+        */}
       </div>
-
-      <div className="conteudoDireita">
-
+      
+      <div className='conteudoLateralDireita'>
+        {/* 
+          Login
+          Sugestões de amigos
+          Sugestões de contas
+          Sugestões de hashtags
+          Sugestões de locais
+          Sugestões de posts patrocinados
+          Link legais
+        */}
       </div>
     </>
   );
